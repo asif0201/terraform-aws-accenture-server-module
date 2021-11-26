@@ -1,6 +1,6 @@
 variable "image" {
  type = string
- default = "ami-0d718c3d715cec4a7"
+ default = "ami-0108d6a82a783b352"
 }
 
 variable "hw" {
