@@ -12,14 +12,14 @@ variable "name" {
 }
 
 variable "nw-name" {
-  default = "gagan-net"
+  default = "Asif-net"
 }
 
 
 resource "aws_instance" "server1" {
   ami           = var.image
   instance_type = var.hw
-  key_name = "test"
+  key_name = "Key_Asif"
   tags = {
     Name = var.name
     Env  = "Prod"
